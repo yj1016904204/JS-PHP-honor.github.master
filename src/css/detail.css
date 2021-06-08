@@ -1,0 +1,209 @@
+.detail-main{
+    background-color: #fff;
+}
+.detail-main .produce{
+    color: #3a3a3a;
+    padding-bottom: 40px;
+}
+
+.detail-main .produce .wrap {
+    position: relative;
+    height: 450px;
+    width: 450px;
+    border: 1px solid #ccc; 
+}
+
+.detail-main .produce .img1 {
+    width: 100%;
+}
+
+.detail-main .produce .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: none; 
+    cursor: move;
+    border: 1px solid #ccc;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+.detail-main .produce .big {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    right: -410px;
+    overflow: hidden;
+    display: none; 
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.detail-main .produce .big img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.detail-main .produce ul {
+    margin-top: 18px;
+    margin-left: 40px;
+    width: 360px;
+    display: flex;
+}
+
+.detail-main .produce ul li {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.detail-main .produce ul li img {
+    width: 100%;
+}
+.detail-main .produce .right{
+    width: 730px;
+}
+
+.detail-main .produce .right h2{
+    font-size: 21px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.detail-main .produce .right .produce-info{
+    background: #f5f5f5;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    margin-top: 15px;
+}
+
+.detail-main .produce .right .produce-info >div{
+    line-height: 30px;
+    padding-bottom: 4px;
+    margin-left: 10px;
+}
+.detail-main .produce .right .produce-info >div>i{
+    display: inline-block;
+    width: 75px;
+}
+.detail-main .produce .right .produce-info .price span {
+    display: inline-block;
+    color: #ca141d;
+    padding-right: 3px;
+    font-size: 24px;
+}
+.detail-main .produce .right .produce-info .youhui span{
+    background: #ef5a62;
+    color: #fff;
+    line-height: 20px;
+    padding: 1px 5px;
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.detail-main .produce .right .produce-info .cuxiao span{
+    line-height: 18px;
+    height: 18px;
+    border: 1px solid #ca141d;
+    padding: 0 6px;
+    min-width: 24px;
+    color: #ca141d;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.detail-main .produce .right .search{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-self: center;
+
+}
+.detail-main .produce .right .search :nth-child(2){
+    line-height: 28px;
+    height: 28px;
+    padding:  0 10px;
+    border: 1px solid #d6d6d6;
+    margin: 0 15px 0 25px;
+    border-radius: 2px;
+}
+.detail-main .produce .right .search p {
+    line-height: 28px;
+}
+
+.detail-main .produce .right .produce-num {
+    border-bottom: 1px solid #ddd;
+    margin-top: 30px;
+    height: 20px;
+    line-height: 20px;
+    padding-bottom: 27px;
+}
+.detail-main .produce .right .produce-num span{
+    width: 75px;
+    display: inline-block;
+}
+.detail-main .produce .right .btn{
+    margin-top: 150px;
+}
+.detail-main .produce .right .btn .btn01{
+    background: #fc600c;
+    width: 172px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.detail-main .produce .right .btn .btn02{
+    background: #ca151d;
+}
+.detail-main .tab{
+    padding: 36px 0 37px 0;
+    text-align: center;
+}
+
+.detail-main .tab ul{
+    margin: 0 25px 25px;
+    font-size: 18px;
+    color: #A4A4A4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.detail-main .tab ul li{
+    padding: 0 10px 6px ;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+
+.detail-main .tab .tablist h2{
+    font-size: 22px;
+    font-weight: 600;
+    width: 150px;
+    top: -1px;
+    line-height: 27px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+.detail-main .tab .tablist span{
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.detail-main .tab ul .current{
+    color: #ca141d;
+    cursor: default;
+    border-bottom: 2px solid #ca141d;
+}

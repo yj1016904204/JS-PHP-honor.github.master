@@ -1,0 +1,104 @@
+/* 注册大盒子 */
+.register-box {
+    width: 960px;
+    margin: 0 auto;
+    padding: 60px 260px 38px;
+}
+.register-box .title {
+    font-size: 32px;
+    text-align: center;
+    color: #191919;
+}
+.register-box .logo{
+    font-size: 18px;
+    text-align: center;
+    color: #191919;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+.register-box .logo a {
+    color:#256fff
+}
+.register .box{
+    display: flex;
+    height: 48px;
+    width: 440px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #191919;
+    line-height: 48px;
+    font-size: 14px;
+    padding: 0 16px;
+    margin-top: 20px;
+}
+.register .china span:first-child{
+    flex: 1;
+}
+.register .phone span {
+    height: 24px;
+    width: 1px;
+    margin: 0 16px;
+    background: rgba(0, 0, 0, 0.1);
+    align-self: center;
+}
+.register .phone input {
+    padding-left:8px;
+    background: transparent;
+    border: transparent;
+    width: 280px;
+}
+.register .verification {
+    position: relative;
+    width: 320px;
+}
+.register .verification input {
+    width: 100%;
+    padding-left:8px;
+    background: transparent;
+    border: transparent;
+}
+.register .verification .random {
+    position: absolute;
+    top: 0;
+    right: -118px;
+    width: 100px;
+    height: 48px;
+    background-color: #ccc;
+    font-size: 24px;
+    color: #256fff;
+    border-radius: 8px;
+    letter-spacing:6px;
+    padding-left: 10px;
+}
+
+.register .date input,
+.register .repassword input,
+.register .password input{
+    padding-left:8px;
+    background: transparent;
+    border: transparent;
+    flex: 1;
+}
+.register button{
+    width: 300px;
+    height: 48px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 48px;
+    padding: 0  16px;
+    color: #fff;
+    background: rgb(37, 111, 255);
+    border-radius: 8px;
+    border: transparent;
+    margin-left: 70px;
+}
+
+.register  > form > span{
+    display: none;
+    color: rgb(255, 51, 32);
+    line-height: 20px;
+    font-size: 14px;
+}

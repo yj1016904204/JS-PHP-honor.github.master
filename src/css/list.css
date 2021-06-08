@@ -1,0 +1,124 @@
+.list-search{
+    background: #F5F5F5;
+}
+ 
+.list-search .cate-area{
+    background: #FFF;
+}
+.pro-cate-attr{
+    width: 1152px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eaeaea;
+    text-align: left;
+    color: #333;
+    line-height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.pro-cate-sort span,
+.pro-cate-attr span{
+    margin-right: 10px;
+    color: #666;
+}
+.pro-cate-sort{
+    width: 500px;
+    margin-left: 24px;
+    text-align: left;
+    color: #333;
+    line-height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.pro-cate-sort .up span{
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 9px solid #999;
+    display: inline-block;
+}
+.pro-cate-sort .down span{
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 9px solid #999;
+    display: inline-block;
+}
+.list-main{
+    padding-bottom: 20px;
+}
+.list-main ul {
+    width: 1210px;
+}
+.list-main ul li {
+    z-index: 2;
+    float: left;
+    width: 242px;
+}
+.list-main ul li div{
+    margin-bottom: 10px;
+    background: #FFF;
+    width: 200px;
+    padding: 0 16px;
+    height: 352px;
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+.list-main ul li div .p-img{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.list-main ul li div .p-img img{
+    width: 180px;
+    height: 180px;
+}
+.list-main ul li div .p-title{
+    line-height: 20px;
+    overflow: hidden;
+    color: #333;
+    font-size: 14px;
+    max-height: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.list-main ul li div .p-price{
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #ca141d;
+    line-height: 24px;
+    font-size: 18px;
+}
+.list-main ul li div .p-label{
+    margin-bottom: 8px;
+    height: 16px;
+    overflow: hidden;
+}
+.list-main ul li div .p-label span{
+    padding: 0 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #ca141d;
+    border: 1px solid #d5434a;
+    float: left;
+    margin-right: 4px;
+}
+.list-main ul li div .p-comment{
+    color: #999;
+    height: 14px;
+    line-height: 14px;
+    overflow: hidden;
+}
+
+.pagination{
+    height: 31px;
+    width: 256px;
+    border: 1px solid #ccc;
+
+}   
